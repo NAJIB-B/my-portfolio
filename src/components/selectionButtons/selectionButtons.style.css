@@ -1,0 +1,26 @@
+.selectionButtons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.selectionButtonsBtn {
+  border: none;
+  margin: auto;
+  padding: 0.5rem;
+  margin: auto;
+}
+.highlighted {
+  background-color: #a23982;
+  color: white;
+}
+@media screen and (max-width: 410px) {
+  .selectionButtons h2 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 275px) {
+  .selectionButtons h2 {
+    font-size: 0.6rem;
+  }
+}

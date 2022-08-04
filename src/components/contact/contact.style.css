@@ -1,0 +1,24 @@
+.contactDiv {
+  background-color: #a23982;
+  text-align: center;
+  color: white;
+  margin-top: -3rem;
+  height: 15rem;
+}
+.contactDiv h2 {
+  font-size: 3rem;
+}
+.socialIcons {
+  width: 4rem;
+  height: 3rem;
+  margin: 1rem;
+  color: white;
+}
+@media screen and (max-width: 410px) {
+  .socialIcons {
+    width: 2rem;
+    height: 1.5rem;
+    margin: 1rem;
+    color: white;
+  }
+}

@@ -1,0 +1,36 @@
+.projectsContainer {
+  text-align: center;
+}
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  max-width: 100% !important;
+}
+@media screen and (max-width: 501px) {
+  .projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    max-width: 100% !important;
+  }
+}
+@media screen and (max-width: 410px) {
+  .projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    max-width: 100% !important;
+  }
+}
+@media screen and (max-width: 350px) {
+  .projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    max-width: 100% !important;
+  }
+}
+@media screen and (max-width: 312px) {
+  .projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    max-width: 100% !important;
+  }
+}
