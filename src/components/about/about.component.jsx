@@ -45,21 +45,36 @@ const About = () => {
             <img src={profile} alt="" className="profilePic" />
             <h2>Who's this guy?</h2>
             <p>
-              I'm a Front-End Developer staying at Abuja. I have serious passion
-              for building web apps and creating responsive and dynamic
-              websites. Let's make something special.
+              Frontend developer with 1 year of experience in building projects,
+              participating in hackathons and contributing to open-soure. I am a
+              mature team worker and adaptable to challenging situations.
+              Skilled in building CRUD project using Firebase and writing secure
+              and clean code with Typescript. I love to solve real life
+              problems.Looking for an internship to continue developing my
+              skills, adding value to real life project and meet new people
             </p>
           </div>
 
           <div className="skills">
             <ul>
+              <li>Typescript</li>
+              <li>Git</li>
               <li>HTML 5</li>
               <li>CSS</li>
-              <li>BOOTSTRAP 5</li>
-              <li>JAVASCRIPT</li>
-              <li>REACT</li>
-              <li>REDUX</li>
+              <li>Bootstrap 5</li>
+              <li>JavaScript</li>
+              <li>React</li>
+
+              <li>FireBase</li>
             </ul>
+            
+              <a
+                href="https://drive.google.com/file/d/1jOHOEXI9g9rZP2SQT1qwwU1uuzuLOzX6/view?usp=sharing"
+                className="resumeLink"
+              >
+                My Resume
+              </a>
+            
           </div>
         </div>
       </div>

@@ -10,6 +10,7 @@ const Projects = () => {
     <div className="projectsContainer" id="projects">
       <h2>PROJECTS</h2>
       <SelectionButtons></SelectionButtons>
+
       <div className="projectsGrid">
         {projects.map((item) => {
           return <ProjectCard key={item.id} project={item}></ProjectCard>;

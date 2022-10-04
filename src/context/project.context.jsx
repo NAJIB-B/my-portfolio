@@ -3,110 +3,155 @@ import { useState } from "react";
 export const projectsCategory = {
   all: [
     {
-      img: "https://i.ibb.co/mGGV1mX/fintrakr.png",
+      img: "https://i.ibb.co/jV1sTXc/fintrakr-Url.png",
       link: "https://najib-b.github.io/finTrakr/",
+      description:
+        "FinTrakr is a virtual app that help you track and organize your activities",
+      stack: "HTML, CSS, Bootstrap 5",
+      name: "FinTrakr",
       id: 1,
     },
     {
-      img: "https://i.ibb.co/KVrg2Ym/crwn-Clothing.png",
-      link: "https://crownclothingg.netlify.app/",
+      img: "https://i.ibb.co/bm26NDb/najib-Quiz-Img.png",
+      link: "https://master.d2jlldhnm1hiur.amplifyapp.com/",
+      description:
+        "A simple quiz app that can be utilized by small schools for testing students, You can set your quiz and share your quiz link with friends.",
+      stack: "Typescript, React, Firebase, styled-components",
+      name: "Quiz Maker",
       id: 2,
     },
+
     {
-      img: "https://i.ibb.co/8sDSBNn/memory-Game.png",
-      link: "https://najib-b.github.io/Memory-game/",
+      img: "https://i.ibb.co/gzknvnq/react-Memory-Game-Img.png",
+      link: "https://memory-game-najib.netlify.app/",
+      description:
+        "A simple memory game that test your memory strength and eye sight speed and is also fun. Hurry up and level up.",
+      stack: "React, Redux, Firebase, styled-components",
+      name: "Memory Game",
       id: 3,
     },
     {
-      img: "https://i.ibb.co/CBy0tYy/weather-App.png",
+      img: "https://i.ibb.co/PzmBVVv/weather-App.png",
       link: "https://najib-b.github.io/weatherApp/",
+      description:
+        "A simple weather app that tells you the weather condition of any location in the world.",
+      stack: "HTML, CSS, Javascript",
+      name: "weather App",
       id: 4,
     },
     {
-      img: "https://i.ibb.co/029XDR9/beeaxh.png",
+      img: "https://i.ibb.co/y8xVP7W/beeaxh-Url.png",
       link: "https://najib-b.github.io/bbb/",
+      description:
+        "A virtual website where parent can help their kids invest in crypto and secure their futures. ",
+      stack: "HTML, CSS, Bootstrap 5",
+      name: "Beeaxh",
       id: 5,
     },
     {
-      img: "https://i.ibb.co/02TKMdX/tic-Tac-Toe.png",
+      img: "https://i.ibb.co/mJbZd7n/tic-tac-toe.png",
       link: "https://najib-b.github.io/tic-tac-toe/",
+      description:
+        "It's a classic tic-tac-toe game made with JavaScript, fun to play when together with friends. From this moment you don't have to waste your ink anymore.",
+      stack: "HTML, CSS, Javascript",
+      name: "Tic-Tac-Toe",
       id: 6,
     },
+
     {
-      img: "https://i.ibb.co/Br1SXkC/youtube.png",
-      link: "najib-youtube.netlify.app",
+      img: "https://i.ibb.co/kX9zz3m/password-Generator.png",
+      link: "https://najib-b.github.io/Password-Generator/",
+      description:
+        "A very useful tool this app helps you generate passwords at random",
+      stack: "HTML, CSS, Javascript",
+      name: "Password Generator",
       id: 7,
     },
     {
-      img: "https://i.ibb.co/mqYQBx3/password-Generator.png",
-      link: "https://najib-b.github.io/Password-Generator/",
+      img: "https://i.ibb.co/JjbvY4f/portfolio.png",
+      link: "https://muhammadnajib.netlify.app",
+      description: "My portfolio website",
+      stack: "HTML, CSS, React",
+      name: "Portfolio site",
       id: 8,
-    },
-    {
-      img: "https://i.ibb.co/HhxzL6p/expense-Tracker.png",
-      link: "https://najib-b.github.io/expenseTracker/",
-      id: 9,
-    },
-    {
-      img: "https://i.ibb.co/3MYgNg4/todoApp.png",
-      link: "https://najib-b.github.io/todoApp/",
-      id: 10,
     },
   ],
   html: [
     {
-      img: "https://i.ibb.co/mGGV1mX/fintrakr.png",
+      img: "https://i.ibb.co/jV1sTXc/fintrakr-Url.png",
       link: "https://najib-b.github.io/finTrakr/",
+      description:
+        "FinTrakr is a virtual app that help you track and organize your activities",
+      stack: "HTML, CSS, Bootstrap 5",
+      name: "FinTrakr",
       id: 1,
     },
     {
-      img: "https://i.ibb.co/029XDR9/beeaxh.png",
+      img: "https://i.ibb.co/y8xVP7W/beeaxh-Url.png",
       link: "https://najib-b.github.io/bbb/",
-      id: 2,
+      description:
+        "A virtual website where parent can help their kids invest in crypto and secure their futures. ",
+      stack: "HTML, CSS, Bootstrap 5",
+      name: "Beeaxh",
+      id: 5,
     },
   ],
   javascript: [
     {
-      img: "https://i.ibb.co/CBy0tYy/weather-App.png",
-      link: "https://najib-b.github.io/weatherApp/",
-      id: 1,
-    },
-    {
-      img: "https://i.ibb.co/8sDSBNn/memory-Game.png",
-      link: "https://najib-b.github.io/Memory-game/",
-      id: 2,
-    },
-    {
-      img: "https://i.ibb.co/02TKMdX/tic-Tac-Toe.png",
+      img: "https://i.ibb.co/mJbZd7n/tic-tac-toe.png",
       link: "https://najib-b.github.io/tic-tac-toe/",
-      id: 3,
+      description:
+        "It's a classic tic-tac-toe game made with JavaScript, fun to play when together with friends. From this moment you don't have to waste your ink anymore.",
+      stack: "HTML, CSS, Javascript",
+      name: "Tic-Tac-Toe",
+      id: 6,
     },
     {
-      img: "https://i.ibb.co/mqYQBx3/password-Generator.png",
-      link: "https://najib-b.github.io/Password-Generator/",
+      img: "https://i.ibb.co/PzmBVVv/weather-App.png",
+      link: "https://najib-b.github.io/weatherApp/",
+      description:
+        "A simple weather app that tells you the weather condition of any location in the world.",
+      stack: "HTML, CSS, Javascript",
+      name: "weather App",
       id: 4,
     },
     {
-      img: "https://i.ibb.co/HhxzL6p/expense-Tracker.png",
-      link: "https://najib-b.github.io/expenseTracker/",
-      id: 5,
-    },
-    {
-      img: "https://i.ibb.co/3MYgNg4/todoApp.png",
-      link: "https://najib-b.github.io/todoApp/",
-      id: 6,
+      img: "https://i.ibb.co/kX9zz3m/password-Generator.png",
+      link: "https://najib-b.github.io/Password-Generator/",
+      description:
+        "A very useful tool this app helps you generate passwords at random",
+      stack: "HTML, CSS, Javascript",
+      name: "Password Generator",
+      id: 7,
     },
   ],
   react: [
     {
-      img: "https://i.ibb.co/Br1SXkC/youtube.png",
-      link: "najib-youtube.netlify.app",
-      id: 1,
+      img: "https://i.ibb.co/bm26NDb/najib-Quiz-Img.png",
+      link: "https://master.d2jlldhnm1hiur.amplifyapp.com/",
+      description:
+        "A simple quiz app that can be utilized by small schools for testing students, You can set your quiz and share your quiz link with friends.",
+      stack: "Typescript, React, Firebase, styled-components",
+      name: "Quiz Maker",
+      id: 2,
+    },
+
+    {
+      img: "https://i.ibb.co/gzknvnq/react-Memory-Game-Img.png",
+      link: "https://memory-game-najib.netlify.app/",
+      description:
+        "A simple memory game that test your memory strength and eye sight speed and is also fun. Hurry up and level up.",
+      stack: "React, Redux, Firebase, styled-components",
+      name: "Memory Game",
+      id: 3,
     },
     {
-      img: "https://i.ibb.co/KVrg2Ym/crwn-Clothing.png",
-      link: "https://crownclothingg.netlify.app/",
-      id: 1,
+      img: "https://i.ibb.co/JjbvY4f/portfolio.png",
+      link: "https://muhammadnajib.netlify.app",
+      description: "My portfolio website",
+      stack: "HTML, CSS, React",
+      name: "Portfolio site",
+      id: 8,
     },
   ],
 };
