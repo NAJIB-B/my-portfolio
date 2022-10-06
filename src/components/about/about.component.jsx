@@ -1,5 +1,5 @@
 import "./about.style.css";
-import profile from "../../assets/profilePic.JPG";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLaptop,
@@ -42,7 +42,11 @@ const About = () => {
       <div className="profile">
         <div className="profileGrid">
           <div className="profileDetails">
-            <img src={profile} alt="" className="profilePic" />
+            <img
+              src="https://i.ibb.co/CnM61F9/8-CA7-CA85-4-A61-4-E64-9-D4-B-053-EBFC974-BE.jpg"
+              alt=""
+              className="profilePic"
+            />
             <h2>Who's this guy?</h2>
             <p>
               Frontend developer with 1 year of experience in building projects,
@@ -67,14 +71,13 @@ const About = () => {
 
               <li>FireBase</li>
             </ul>
-            
-              <a
-                href="https://drive.google.com/file/d/1jOHOEXI9g9rZP2SQT1qwwU1uuzuLOzX6/view?usp=sharing"
-                className="resumeLink"
-              >
-                My Resume
-              </a>
-            
+
+            <a
+              href="https://drive.google.com/file/d/1jOHOEXI9g9rZP2SQT1qwwU1uuzuLOzX6/view?usp=sharing"
+              className="resumeLink"
+            >
+              My Resume
+            </a>
           </div>
         </div>
       </div>
