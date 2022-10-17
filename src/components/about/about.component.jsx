@@ -49,13 +49,15 @@ const About = () => {
             />
             <h2>Who's this guy?</h2>
             <p>
-              Frontend developer with 1 year of experience in building projects,
-              participating in hackathons and contributing to open-soure. I am a
-              mature team worker and adaptable to challenging situations.
-              Skilled in building CRUD project using Firebase and writing secure
-              and clean code with Typescript. I love to solve real life
-              problems.Looking for an internship to continue developing my
-              skills, adding value to real life project and meet new people
+              To start I am a good listener I am an open minded person I am
+              optimistic and I strongly believe in team work I learnt to keep a
+              positive outlook through challenging situations with my teammates
+              I am a Frontend developer with a ton of projects I have
+              participated in hackathons and contributed to open source projects
+              I am a mature team worker and quite generous with giving praises I
+              am skilled in building CRUD projects using Firebase and writing
+              secure and clean code with Typescript. I will love to solve real
+              life problems with like minded people and socialize.
             </p>
           </div>
 

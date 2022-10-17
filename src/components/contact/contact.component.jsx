@@ -2,7 +2,8 @@ import "./contact.style.css";
 import ig from "../../assets/instagram.png";
 import tw from "../../assets/twitter.png";
 import ln from "../../assets/LinkedIn.png";
-import gm from "../../assets/gmail.png";
+import ph from "../../assets/phone-call-icon.png";
+import gh from "../../assets/githubIcon.png";
 
 const Contact = () => {
   return (
@@ -15,28 +16,38 @@ const Contact = () => {
         ></path>
       </svg>
       <div className="contactDiv">
-        <h2>contact</h2>
+        <h2>Socials</h2>
         <div className="iconsDiv">
+          <a href="tel:08189491387">
+            <img src={ph} alt="phone Icon" className="socialIcons" />
+          </a>
+          <a
+            href="https://github.com/NAJIB-B"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={gh} alt="github Icon" className="socialIcons" />
+          </a>
           <a
             href="https://www.instagram.com/muhd_najib_bala/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={ig} alt="" className="socialIcons" />
+            <img src={ig} alt="instagram Icon" className="socialIcons" />
           </a>
           <a
             href="https://twitter.com/najib2557"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={tw} alt="" className="socialIcons" />
+            <img src={tw} alt="twitter Icon" className="socialIcons" />
           </a>
           <a
             href="https://www.linkedin.com/in/muhammad-najib-bala-92a343230/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={ln} alt="" className="socialIcons" />
+            <img src={ln} alt="LinkedIn Icon" className="socialIcons" />
           </a>
         </div>
       </div>

@@ -31,13 +31,23 @@ export const projectsCategory = {
       id: 3,
     },
     {
+      img: "https://i.ibb.co/MG5trsz/athirst-Img.png",
+      link: "https://athirst-foundationorg.netlify.app/",
+      description:
+        "A freelance website I did for charity oganization, it stuffed with lots of animations and very responsive.",
+      stack: "React, Context Api,  CSS, Chakra UI",
+      name: "Athirst Foundation",
+      id: 4,
+    },
+
+    {
       img: "https://i.ibb.co/PzmBVVv/weather-App.png",
       link: "https://najib-b.github.io/weatherApp/",
       description:
         "A simple weather app that tells you the weather condition of any location in the world.",
       stack: "HTML, CSS, Javascript",
       name: "weather App",
-      id: 4,
+      id: 5,
     },
     {
       img: "https://i.ibb.co/y8xVP7W/beeaxh-Url.png",
@@ -46,7 +56,7 @@ export const projectsCategory = {
         "A virtual website where parent can help their kids invest in crypto and secure their futures. ",
       stack: "HTML, CSS, Bootstrap 5",
       name: "Beeaxh",
-      id: 5,
+      id: 6,
     },
     {
       img: "https://i.ibb.co/mJbZd7n/tic-tac-toe.png",
@@ -55,7 +65,7 @@ export const projectsCategory = {
         "It's a classic tic-tac-toe game made with JavaScript, fun to play when together with friends. From this moment you don't have to waste your ink anymore.",
       stack: "HTML, CSS, Javascript",
       name: "Tic-Tac-Toe",
-      id: 6,
+      id: 7,
     },
 
     {
@@ -65,7 +75,7 @@ export const projectsCategory = {
         "A very useful tool this app helps you generate passwords at random",
       stack: "HTML, CSS, Javascript",
       name: "Password Generator",
-      id: 7,
+      id: 8,
     },
     {
       img: "https://i.ibb.co/JjbvY4f/portfolio.png",
@@ -73,7 +83,7 @@ export const projectsCategory = {
       description: "My portfolio website",
       stack: "HTML, CSS, React",
       name: "Portfolio site",
-      id: 8,
+      id: 9,
     },
   ],
   html: [
