@@ -75,7 +75,7 @@ const About = () => {
             </ul>
 
             <a
-              href="https://drive.google.com/file/d/1jOHOEXI9g9rZP2SQT1qwwU1uuzuLOzX6/view?usp=sharing"
+              href="https://drive.google.com/file/d/1SYNZnoScj3B_BmQgS74dIyEpYYMBtTKD/view?usp=drivesdk"
               className="resumeLink"
             >
               My Resume
